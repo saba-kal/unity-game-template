@@ -9,21 +9,20 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class SceneLoader : MonoBehaviour
 {
-    public List<SceneCollection> AvailableScenes;
+    public static SceneLoader Instance { get; private set; }
 
-    private bool _created = false;
+    [SerializeField] private List<SceneCollection> availableScenes;
 
-    void Awake()
+    private void Awake()
     {
-        // Ensure the script is not deleted while loading.
-        if (!_created)
+        if (Instance == null)
         {
-            DontDestroyOnLoad(this.gameObject);
-            _created = true;
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
         }
         else
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
@@ -53,16 +52,16 @@ public class SceneLoader : MonoBehaviour
     /// <param name="sceneCollectionIndex">The index of the scenes to cycle through.</param>
     public void LoadScene(int sceneCollectionIndex)
     {
-        if (sceneCollectionIndex < 0 || sceneCollectionIndex >= AvailableScenes.Count)
+        if (sceneCollectionIndex < 0 || sceneCollectionIndex >= availableScenes.Count)
         {
             Debug.LogError("Scene index is out of range.");
             return;
         }
 
-        StartCoroutine(LoadMultipleScenesAsync(AvailableScenes[sceneCollectionIndex]));
+        StartCoroutine(LoadMultipleScenesAsync(availableScenes[sceneCollectionIndex]));
     }
 
-    IEnumerator LoadMultipleScenesAsync(SceneCollection sceneCollection)
+    private IEnumerator LoadMultipleScenesAsync(SceneCollection sceneCollection)
     {
         yield return SceneManager.LoadSceneAsync(sceneCollection.MainSceneName);
 
@@ -84,8 +83,6 @@ public class SceneLoader : MonoBehaviour
 
             yield return SceneManager.LoadSceneAsync(additiveScene, LoadSceneMode.Additive);
         }
-
-        Destroy(this.gameObject);
     }
 }
 
