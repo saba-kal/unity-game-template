@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3991942870	Music			\Default Work Unit\Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Footsteps			
+	2185786256	Gravel	Footsteps			
+	2195636714	Dirt	Footsteps			
+	2637588553	Tile	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3103015060	MusicStates			\Default Work Unit\MusicStates	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicStates			
+	1548586727	MenuState	MusicStates			
+	4091656514	GameState	MusicStates			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	100859403	temp_menu_music	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\temp_menu_music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameMusic\temp_menu_music\temp_menu_music		76992092
+	106555270	FS_Gravel_02	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Gravel\FS_Gravel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_02		34198
+	151133245	FS_Concrete_01	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Concrete\FS_Concrete_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_01		42952
+	166207037	FS_Concrete_03	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Concrete\FS_Concrete_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_03		63518
+	235374308	FS_Tile_02	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Tile\FS_Tile_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_02		53700
+	283295729	FS_Gravel_01	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Gravel\FS_Gravel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_01		43006
+	416788295	FS_Tile_03	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Tile\FS_Tile_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_03		58572
+	553148624	FS_Dirt_01	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt\FS_Dirt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\FS_Dirt_01		43874
+	606694774	FS_Tile_01	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Tile\FS_Tile_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_01		37538
+	724721706	FS_Dirt_03	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt\FS_Dirt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\FS_Dirt_03		75892
+	888852261	FS_Concrete_02	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Concrete\FS_Concrete_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_02		55048
+	971143428	FS_Gravel_03	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Gravel\FS_Gravel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Gravel\FS_Gravel_03		48248
+	994870237	temp_game_music	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\temp_game_music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameMusic\temp_game_music\temp_game_music		3329648
+	1035699254	FS_Dirt_02	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt\FS_Dirt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\FS_Dirt_02		75892
+
