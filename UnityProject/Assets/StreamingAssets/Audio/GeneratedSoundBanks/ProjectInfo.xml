@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="UnityProject_WwiseProject" GUID="{1AC11B82-C3CF-4FCC-A5CA-F416FD6645DD}" Generator="2022.1.5.8242"/>
+	<CacheRoot>../../../../UnityProject_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{81214E69-0F22-453A-9E41-55CE5839700D}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../UnityProject_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{3102D1DD-89A4-467B-ACE5-9242B7B951D1}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../UnityProject_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{3596C023-3442-4A8B-81CE-D7A6DEA38F70}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{6A9C8A69-7A0D-DD03-BFDA-BF67AFB35BC4}</FileHash>
+</ProjectInfo>

@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{528092C3-8D8E-40AD-A4A0-D56025399269}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{528092C3-8D8E-40AD-A4A0-D56025399269}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{528092C3-8D8E-40AD-A4A0-D56025399269}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{6390AE64-CFD1-4203-9949-6D299E4D6D98}">
+					<ChildrenList>
+						<Action Name="" ID="{1B187A94-B2D7-435F-A1A5-A8AC8F266F77}" ShortID="587355222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{940113FB-4954-4369-B30C-C01A3968128A}" WorkUnitID="{9EAD3E21-54D8-4393-9E6D-0A6E59D1C03F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuMusic" ID="{483D32C5-18D0-4C3E-AC7B-B2CFC62E0A85}">
+					<ChildrenList>
+						<Action Name="" ID="{18234B85-1724-414A-B396-90E587C0C43F}" ShortID="362229212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="temp_menu_music" ID="{9FB82652-EA2B-405B-AA01-33490115648A}" WorkUnitID="{4B4FF7F3-4CE3-47E9-A6D1-DD87D216730B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameMusic" ID="{FE22D5A7-E8EB-484A-8148-60709105570A}">
+					<ChildrenList>
+						<Action Name="" ID="{1EE81CA2-72BE-460F-AFD5-CFFCD7901DF5}" ShortID="756364207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="temp_game_music" ID="{116E7134-A366-470C-8E8F-1395D4CB4992}" WorkUnitID="{4B4FF7F3-4CE3-47E9-A6D1-DD87D216730B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

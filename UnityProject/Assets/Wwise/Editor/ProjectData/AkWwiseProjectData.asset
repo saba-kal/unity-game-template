@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: cc0f4bda4406c54ab7487dcd7bef831a
     GuidInternal: 
-    m_lastTime: -8585133627058303332
-    List: []
+    m_lastTime: -8585133559192983780
+    List:
+    - name: Main
+      guid: 5d71dbaf1a5a2b46903e2e4102b8422c
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cc0f4bda4406c54ab7487dcd7bef831a
+      - ElementName: Main
+        ObjectType: 7
+        guid: 5d71dbaf1a5a2b46903e2e4102b8422c
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c39280528e8dad40a4a0d56025399269
     GuidInternal: 
-    m_lastTime: -8585133627059244193
-    List: []
+    m_lastTime: -8585133559332521735
+    List:
+    - name: Footsteps
+      guid: 64ae9063d1cf034299496d299e4d6d98
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c39280528e8dad40a4a0d56025399269
+      - ElementName: Footsteps
+        ObjectType: 3
+        guid: 64ae9063d1cf034299496d299e4d6d98
+      Path: Events\Default Work Unit\Footsteps
+      maxAttenuation: 100
+      maxDuration: 0.8593651
+      minDuration: 0.386644
+    - name: GameMusic
+      guid: a7d522feebe84a48814860709105570a
+      id: 1533192012
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c39280528e8dad40a4a0d56025399269
+      - ElementName: GameMusic
+        ObjectType: 3
+        guid: a7d522feebe84a48814860709105570a
+      Path: Events\Default Work Unit\GameMusic
+      maxAttenuation: 0
+      maxDuration: 18.875011
+      minDuration: 18.875011
+    - name: MenuMusic
+      guid: c5323d48d0183e4cac7bb2cfc62e0a85
+      id: 679636833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c39280528e8dad40a4a0d56025399269
+      - ElementName: MenuMusic
+        ObjectType: 3
+        guid: c5323d48d0183e4cac7bb2cfc62e0a85
+      Path: Events\Default Work Unit\MenuMusic
+      maxAttenuation: 0
+      maxDuration: 400.99997
+      minDuration: 400.99997
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -122,8 +187,90 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: e68900f7e331bd429781f648d7e24902
     GuidInternal: 
-    m_lastTime: -8585133627059054008
-    List: []
+    m_lastTime: -8585133611552932569
+    List:
+    - name: Footsteps
+      guid: 3c6aa62b9dd358468e1de9cc015f3acb
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e68900f7e331bd429781f648d7e24902
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: 3c6aa62b9dd358468e1de9cc015f3acb
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: Concrete
+        guid: 8d35f96c0198b04f89ed1b7ba37f7b71
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e68900f7e331bd429781f648d7e24902
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 3c6aa62b9dd358468e1de9cc015f3acb
+        - ElementName: Concrete
+          ObjectType: 10
+          guid: 8d35f96c0198b04f89ed1b7ba37f7b71
+      - name: Dirt
+        guid: 15a99ded4189b347b6b750b5f6048442
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e68900f7e331bd429781f648d7e24902
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 3c6aa62b9dd358468e1de9cc015f3acb
+        - ElementName: Dirt
+          ObjectType: 10
+          guid: 15a99ded4189b347b6b750b5f6048442
+      - name: Gravel
+        guid: 72e69d87b60e5943a66e0b038cd32edf
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e68900f7e331bd429781f648d7e24902
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 3c6aa62b9dd358468e1de9cc015f3acb
+        - ElementName: Gravel
+          ObjectType: 10
+          guid: 72e69d87b60e5943a66e0b038cd32edf
+      - name: Tile
+        guid: cd556a641d0ef249b33056cd78ecd0a9
+        id: 2637588553
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e68900f7e331bd429781f648d7e24902
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 3c6aa62b9dd358468e1de9cc015f3acb
+        - ElementName: Tile
+          ObjectType: 10
+          guid: cd556a641d0ef249b33056cd78ecd0a9
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +286,7 @@ MonoBehaviour:
     m_lastTime: -8585133627058442257
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 04000000
+  ExpandedWaapiItemIds: 0400000006000000070000000a0000000b0000000c0000000d0000000e00000014000000600200006102000059030000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -4,7 +4,14 @@
 		<WorkUnit Name="Default Work Unit" ID="{9EAD3E21-54D8-4393-9E6D-0A6E59D1C03F}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchContainer Name="Footsteps" ID="{940113FB-4954-4369-B30C-C01A3968128A}" ShortID="974530931">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Footsteps" ID="{7D6E69CF-A6F4-47DA-8E17-31E9C8ABD0FD}" WorkUnitID="{698DC359-0E89-4879-A482-1CB696592A04}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E258B93B-10F9-46FB-B8D3-82271E9F9543}"/>
 						</Reference>
@@ -20,6 +27,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Concrete" ID="{056E2566-B15A-4D9B-B5B0-29EBE271A071}" ShortID="188960566">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E258B93B-10F9-46FB-B8D3-82271E9F9543}"/>
