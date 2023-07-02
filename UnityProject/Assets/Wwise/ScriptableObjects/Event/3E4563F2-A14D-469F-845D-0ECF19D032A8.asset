@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0fd033ecb515d54aa22ea2591ac33f2, type: 3}
-  m_Name: FE22D5A7-E8EB-484A-8148-60709105570A
+  m_Name: 3E4563F2-A14D-469F-845D-0ECF19D032A8
   m_EditorClassIdentifier: 
-  objectName: GameMusic
-  id: 1533192012
-  guid: FE22D5A7-E8EB-484A-8148-60709105570A
+  objectName: Music
+  id: 3991942870
+  guid: 3E4563F2-A14D-469F-845D-0ECF19D032A8

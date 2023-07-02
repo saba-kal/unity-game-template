@@ -1,7 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	679636833	MenuMusic			\Default Work Unit\MenuMusic	
-	1533192012	GameMusic			\Default Work Unit\GameMusic	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3991942870	Music			\Default Work Unit\Music	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
@@ -11,6 +10,14 @@ Switch	ID	Name	Switch Group			Notes
 	2185786256	Gravel	Footsteps			
 	2195636714	Dirt	Footsteps			
 	2637588553	Tile	Footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3103015060	MusicStates			\Default Work Unit\MusicStates	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicStates			
+	1548586727	MenuState	MusicStates			
+	4091656514	GameState	MusicStates			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	100859403	temp_menu_music	C:\Projects\Unity\unity-game-template\UnityProject\UnityProject_WwiseProject\.cache\Mac\SFX\temp_menu_music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameMusic\temp_menu_music\temp_menu_music		76992092

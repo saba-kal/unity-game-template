@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{9C1BE718-06B4-4EEB-BDE2-6F2FFC3B17B8}">
 			<PropertyList>
+				<Property Name="Event Action List\{3E4563F2-A14D-469F-845D-0ECF19D032A8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{483D32C5-18D0-4C3E-AC7B-B2CFC62E0A85}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6390AE64-CFD1-4203-9949-6D299E4D6D98}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FE22D5A7-E8EB-484A-8148-60709105570A}\x64_Expand States" Type="string" Value=""/>
@@ -40,6 +41,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{F704A540-86ED-4B25-A7C9-5F5BDE5BA518}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{F704A540-86ED-4B25-A7C9-5F5BDE5BA518}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value="ewBBAEYARABCADcAMQA1AEQALQA1AEEAMQBBAC0ANAA2ADIAQgAtADkAMAAzAEUALQAyAEUANAAxADAAMgBCADgANAAyADIAQwB9AAAAAAE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewBBAEYARABCADcAMQA1AEQALQA1AEEAMQBBAC0ANAA2ADIAQgAtADkAMAAzAEUALQAyAEUANAAxADAAMgBCADgANAAyADIAQwB9AAAAAAE="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>

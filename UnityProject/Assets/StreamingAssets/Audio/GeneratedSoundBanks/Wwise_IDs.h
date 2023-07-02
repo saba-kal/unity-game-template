@@ -14,9 +14,24 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOOTSTEPS = 2385628198U;
-        static const AkUniqueID GAMEMUSIC = 1533192012U;
-        static const AkUniqueID MENUMUSIC = 679636833U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSICSTATES
+        {
+            static const AkUniqueID GROUP = 3103015060U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GAMESTATE = 4091656514U;
+                static const AkUniqueID MENUSTATE = 1548586727U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSICSTATES
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{92CA5CE4-F703-5859-015A-36531B29EC1A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,6 +21,15 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3103015060" Name="MusicStates">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1548586727" Name="MenuState"/>
+						<State Id="4091656514" Name="GameState"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
@@ -32,7 +41,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3C20AB3B-E6FE-166A-8E03-80A39F85C2D0}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E84FEEFB-E72C-5874-1251-75D6A640A70C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -130,17 +139,32 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1533192012" Name="GameMusic" DurationType="OneShot" DurationMin="18.875011" DurationMax="18.875011">
-					<MediaRefs>
-						<MediaRef Id="994870237"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="679636833" Name="MenuMusic" DurationType="OneShot" DurationMin="400.99997" DurationMax="400.99997">
-					<MediaRefs>
-						<MediaRef Id="100859403"/>
-					</MediaRefs>
+				<Event Id="3991942870" Name="Music" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3103015060" Id="4091656514"/>
+							<MediaRefs>
+								<MediaRef Id="994870237"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3103015060" Id="1548586727"/>
+							<MediaRefs>
+								<MediaRef Id="100859403"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="3103015060" Name="MusicStates">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1548586727" Name="MenuState"/>
+						<State Id="4091656514" Name="GameState"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
@@ -153,5 +177,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FDFCBD25-CFE5-516E-AE6C-0394F61886D8}</FileHash>
+	<FileHash>{5464F47B-6DC9-C448-B71C-8AC2B48D45FB}</FileHash>
 </SoundBanksInfo>

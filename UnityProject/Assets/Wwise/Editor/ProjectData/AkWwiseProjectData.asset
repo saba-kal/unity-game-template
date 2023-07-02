@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: cc0f4bda4406c54ab7487dcd7bef831a
     GuidInternal: 
-    m_lastTime: -8585133559192983780
+    m_lastTime: -8585132710552578020
     List:
     - name: Main
       guid: 5d71dbaf1a5a2b46903e2e4102b8422c
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c39280528e8dad40a4a0d56025399269
     GuidInternal: 
-    m_lastTime: -8585133559332521735
+    m_lastTime: -8585132710552557998
     List:
     - name: Footsteps
       guid: 64ae9063d1cf034299496d299e4d6d98
@@ -113,9 +113,9 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 0.8593651
       minDuration: 0.386644
-    - name: GameMusic
-      guid: a7d522feebe84a48814860709105570a
-      id: 1533192012
+    - name: Music
+      guid: f263453e4da19f46845d0ecf19d032a8
+      id: 3991942870
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -123,30 +123,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c39280528e8dad40a4a0d56025399269
-      - ElementName: GameMusic
+      - ElementName: Music
         ObjectType: 3
-        guid: a7d522feebe84a48814860709105570a
-      Path: Events\Default Work Unit\GameMusic
+        guid: f263453e4da19f46845d0ecf19d032a8
+      Path: Events\Default Work Unit\Music
       maxAttenuation: 0
-      maxDuration: 18.875011
-      minDuration: 18.875011
-    - name: MenuMusic
-      guid: c5323d48d0183e4cac7bb2cfc62e0a85
-      id: 679636833
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c39280528e8dad40a4a0d56025399269
-      - ElementName: MenuMusic
-        ObjectType: 3
-        guid: c5323d48d0183e4cac7bb2cfc62e0a85
-      Path: Events\Default Work Unit\MenuMusic
-      maxAttenuation: 0
-      maxDuration: 400.99997
-      minDuration: 400.99997
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -173,8 +156,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 7b22d0f78574d54ba2a877c11db531fa
     GuidInternal: 
-    m_lastTime: -8585133627059013984
-    List: []
+    m_lastTime: -8585132724444603573
+    List:
+    - name: MusicStates
+      guid: 3cc21e9b2325aa4fa800839069434a1b
+      id: 3103015060
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b22d0f78574d54ba2a877c11db531fa
+      - ElementName: MusicStates
+        ObjectType: 9
+        guid: 3cc21e9b2325aa4fa800839069434a1b
+      Path: States\Default Work Unit\MusicStates
+      values:
+      - name: GameState
+        guid: 1b1c87a1fe109b4e85b177b0f0c83e78
+        id: 4091656514
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b22d0f78574d54ba2a877c11db531fa
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: 3cc21e9b2325aa4fa800839069434a1b
+        - ElementName: GameState
+          ObjectType: 8
+          guid: 1b1c87a1fe109b4e85b177b0f0c83e78
+      - name: MenuState
+        guid: b65bc2379160174a94fd907deed3d8dc
+        id: 1548586727
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b22d0f78574d54ba2a877c11db531fa
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: 3cc21e9b2325aa4fa800839069434a1b
+        - ElementName: MenuState
+          ObjectType: 8
+          guid: b65bc2379160174a94fd907deed3d8dc
+      - name: None
+        guid: 1fa13a48fea28048842f8da76d64df18
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b22d0f78574d54ba2a877c11db531fa
+        - ElementName: MusicStates
+          ObjectType: 9
+          guid: 3cc21e9b2325aa4fa800839069434a1b
+        - ElementName: None
+          ObjectType: 8
+          guid: 1fa13a48fea28048842f8da76d64df18
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -286,7 +335,7 @@ MonoBehaviour:
     m_lastTime: -8585133627058442257
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0400000006000000070000000a0000000b0000000c0000000d0000000e00000014000000600200006102000059030000
+  ExpandedWaapiItemIds: 04000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f0000001100000014000000600200006102000059030000e4180200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
